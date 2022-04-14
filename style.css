@@ -3,3 +3,37 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  font-family: sans-serif;
+  color: #343a40;
+  font-size: 28px;
+  display: grid;
+  grid-template-columns: 80px 400px 1fr 250px;
+  grid-template-rows: 80px 1fr;
+  height: 100vh;
+}
+
+nav {
+  background-color: #2d3136;
+  color: white;
+  grid-row: 1 / 4;
+  text-align: center;
+  padding-top: 10px;
+}
+
+menu {
+  background-color: #9775fa;
+  color: #fff;
+  grid-column: 2 / 5;
+}
+
+section {
+  background-color: #868e96;
+  color: #fff;
+}
+
+aside {
+  background-color: #868e96;
+  color: white;
+}
